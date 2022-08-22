@@ -1,16 +1,10 @@
-# control_asistencia_tfg_jrm
+# RESUMEN
 
-A new Flutter project.
+Este trabajo ha consistido en la realización de una aplicación móvil multiplataforma mediante el uso del Framework UI Flutter. Esta aplicación facilita a los docentes de la Universidad Politécnica de Teruel el control de la asistencia de sus alumnos a cada una de sus asignaturas de manera sencilla y rápida mediante la subida a través de un Excel del listado de alumnos para cada asignatura, seleccionando posteriormente los días que se tiene clase y de esta forma poder pasar lista cada vez que se tenga clase.
+Finalmente se tiene la posibilidad de generar un PDF mensual con las asistencias de todos los alumnos, el cual es requerido que los docentes firmen.
 
-## Getting Started
+Palabras clave
 
-This project is a starting point for a Flutter application.
+A continuacón, se enumeran las palabras más importantes a la hora de realizar este proyecto:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Flutter, Aplicación móvil, Framework, Firebase, Bloc
