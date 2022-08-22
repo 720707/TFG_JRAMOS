@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "396311842463",
+    "project_id": "control-asistencia-tfg-jrm",
+    "storage_bucket": "control-asistencia-tfg-jrm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396311842463:android:66ccf17d79e3d33748dcaa",
+        "android_client_info": {
+          "package_name": "com.example.control_asistencia_tfg_jrm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396311842463-mdgpop4abv5taagm6cb6ikqg1ds0el0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBfdnFzNsI0QcSFFlKQVEC3GETp8hX7Jc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396311842463-mdgpop4abv5taagm6cb6ikqg1ds0el0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

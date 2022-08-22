@@ -1,0 +1,42 @@
+{
+  "anyo" : 2022,
+  "idAsignatura" : "DB434443ddsa",
+  "idListaAsistenciasMes" : "DB434443ddsa4334443dsd",
+  "listaAsistenciasDia": [{
+    "alumnos" : [{
+        "asignaturas" : ["2342342", "Matematicas"],
+        "dniAlumno" : "0",
+        "nipAlumno" : "0",
+        "presente" : true,
+        "nombreCompleto" : "Segundo, Tomas"
+    }, {
+     "asignaturas" : ["2342342", "Matematicas"],
+     "dniAlumno" : "1",
+     "nipAlumno" : "1",
+     "presente" : true,
+     "nombreCompleto" : "Segundo, Tomas"
+  }],
+    "fecha" : "2022-08-15T00:00:00.000Z",
+    "idAsignatura" : "DB434443ddsa",
+    "idListaAsistenciasDia": "0"
+}, 
+{
+  "alumnos" : [{
+      "asignaturas" : ["2342342", "Matematicas"],
+      "dniAlumno" : "0",
+      "nipAlumno" : "0",
+      "presente" : true,
+      "nombreCompleto" : "Segundo, Tomas"
+  }, {
+   "asignaturas" : ["2342342", "Matematicas"],
+   "dniAlumno" : "1",
+   "nipAlumno" : "1",
+   "presente" : true,
+   "nombreCompleto" : "Segundo, Tomas"
+}],
+  "fecha" : "2022-08-16T00:00:00.000Z",
+  "idAsignatura" : "DB434443ddsa",
+  "idListaAsistenciasDia": "1"
+}],
+  "mes": 8
+}

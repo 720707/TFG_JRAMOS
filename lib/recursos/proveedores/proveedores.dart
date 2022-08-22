@@ -1,0 +1,10 @@
+export 'package:control_asistencia_tfg_jrm/recursos/proveedores/alumnos/proveedor_alumnos.dart';
+export 'package:control_asistencia_tfg_jrm/recursos/proveedores/alumnos/proveedor_alumnos_firebase.dart';
+export 'package:control_asistencia_tfg_jrm/recursos/proveedores/asignaturas/proveedor_asignaturas.dart';
+export 'package:control_asistencia_tfg_jrm/recursos/proveedores/asignaturas/proveedor_asignaturas_firebase.dart';
+export 'package:control_asistencia_tfg_jrm/recursos/proveedores/autenticacion/proveedor_autenticacion.dart';
+export 'package:control_asistencia_tfg_jrm/recursos/proveedores/autenticacion/proveedor_autenticacion_firebase.dart';
+export 'package:control_asistencia_tfg_jrm/recursos/proveedores/clases/proveedor_clases.dart';
+export 'package:control_asistencia_tfg_jrm/recursos/proveedores/clases/proveedor_clases_firebase.dart';
+export 'package:control_asistencia_tfg_jrm/recursos/proveedores/listas_asistencia/proveedor_listas_asistencia.dart';
+export 'package:control_asistencia_tfg_jrm/recursos/proveedores/listas_asistencia/proveedor_listas_asistencia_firebase.dart';

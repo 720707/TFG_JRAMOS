@@ -1,0 +1,22 @@
+{
+   "alumnos" : [{
+      "asignaturas" : ["2342342", "Matematicas"],
+      "dniAlumno" : "0",
+      "nipAlumno" : "0",
+      "presente" : true,
+      "nombreCompleto" : "Segundo, Tomas"
+  }, {
+   "asignaturas" : ["2342342", "Matematicas"],
+   "dniAlumno" : "1",
+   "nipAlumno" : "1",
+   "presente" : true,
+   "nombreCompleto" : "Segundo, Tomas"
+}],
+   "diaClase" : "2022-08-15T00:00:00.000Z",
+   "idAsignatura" : "DB434443ddsa",
+   "idClase" : "D4433344",
+   "idProfesor" : "54454",
+   "listaPasada" : true,
+   "nombreAsignatura" : "DB",
+   "nombreGrado" : "Informática"
+}
