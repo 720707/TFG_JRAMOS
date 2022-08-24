@@ -9,5 +9,5 @@ A continuacón, se enumeran las palabras más importantes a la hora de realizar 
 
 Flutter, Aplicación móvil, Framework, Firebase, Bloc
 
-###Fichero excel
+### Fichero excel
 Para poder utilizar de forma correcta la aplicación, se tienen que copiar los NIPS de los alumnos en un documento externo como un Bloc de Notas o un Word y volver a ponerlos en el Excel con el fin de que no esten encriptados, pues en caso de que esten encriptados se obtendrán valores extraños para los NIPS.
