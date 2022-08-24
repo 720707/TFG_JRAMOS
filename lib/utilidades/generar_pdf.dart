@@ -46,7 +46,7 @@ class GeneradorPdf {
   }
 
   //Metodo para crear los alumnos para el PDF
-  //los alumnos tiene nombreApellidos, nip y un Map<String, List<String>> de 
+  //los alumnos tiene nombreApellidos, nip y un Map<String, List<String>> de
   //las asistencias ordenadas por dia
   List<AlumnoPDF> generarAlumnosPdf(
       {required ListaAsistenciasMes listaAsistenciasMes,
@@ -56,7 +56,6 @@ class GeneradorPdf {
     List<String> nombreAlumnos = [];
     List<String> nipAlumnos = asignatura.idAlumnos;
     Map<String, List<String>> asistenciasMap = {};
-    List<List<String>> presenteAustenteMes = [];
     List<String> presenteAustenteDia = [];
     Map<String, String> asistenciasUsuario = {};
     String presente = "";
@@ -77,8 +76,6 @@ class GeneradorPdf {
         nombreAlumnos.add(alumno.nombreCompleto);
         presenteAustenteDia.add(presente);
       }
-
-      presenteAustenteMes.add(presenteAustenteDia);
 
       //Esto son las asistencias para cada lista de asistencia van con Fecha,
       //Lista asistencias
