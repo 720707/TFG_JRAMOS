@@ -46,7 +46,8 @@ class GeneradorPdf {
   }
 
   //Metodo para crear los alumnos para el PDF
-  //los alumnos tiene nombreCompleto, nip y un List<String> de las asistencias
+  //los alumnos tiene nombreApellidos, nip y un Map<String, List<String>> de 
+  //las asistencias ordenadas por dia
   List<AlumnoPDF> generarAlumnosPdf(
       {required ListaAsistenciasMes listaAsistenciasMes,
       required Asignatura asignatura}) {
