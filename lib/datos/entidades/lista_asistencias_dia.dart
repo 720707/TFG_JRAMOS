@@ -7,9 +7,8 @@ import '../datos.dart';
 ///
 
 class ListaAsistenciasDia extends Equatable {
-  //id: idAsignatura + dia + mes + año
+ 
   final String idListaAsistenciasDia;
-
   final DateTime fecha;
   final String idAsignatura;
   final List<Alumno> alumnos;

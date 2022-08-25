@@ -7,10 +7,7 @@ import 'lista_asistencias_mes.dart';
 ///
 
 class Asignatura extends Equatable {
-  //Id de referencia a el documento de Firestore (puede ser el nombre
-  //de la asignautrua + fecha inicio + idProfesor)
   final String idAsignatura;
-  //Este es el id del usuario que lo crea (user.uid)
   final String idProfesor;
   final String nombreAsignatura;
   final DateTime fechaInicio;

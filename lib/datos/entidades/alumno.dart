@@ -7,8 +7,6 @@ class Alumno extends Equatable {
   final String nipAlumno;
   final String dniAlumno;
   final String nombreCompleto;
-  //Asignatura y listaAsistenciaMes tendran que ser de tipo String y pasar el
-  //id del documento al que hacen referencia
   final List<String>? asignaturas;
   bool presente;
 

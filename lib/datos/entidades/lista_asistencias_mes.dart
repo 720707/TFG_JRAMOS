@@ -7,7 +7,7 @@ import 'lista_asistencias_dia.dart';
 ///
 
 class ListaAsistenciasMes extends Equatable {
-  //id: idAsignatura + mes + año
+  
   final String idListaAsistenciasMes;
   final int mes;
   final int anyo;
