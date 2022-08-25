@@ -114,7 +114,6 @@ class ProveedorAutenticacionFirebase implements ProveedorAutenticacion {
   @override
   UsuarioAutenticado? obtenerUsuarioAutenticacionActual() {
     final usuario = firebaseAuth.currentUser;
-    log(usuario.toString());
     if (usuario != null) {
       return UsuarioAutenticadoDTO.deFirebase(usuario).toEntity();
     } else {

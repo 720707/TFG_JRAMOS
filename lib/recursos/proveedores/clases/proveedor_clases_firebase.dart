@@ -20,7 +20,6 @@ class ProveedorClasesFirebase implements ProveedorClases {
   Future<void> crearClase(Clase clase) async {
     ClaseDTO claseModelo = ClaseDTO.fromEntity(clase);
 
-    //log('El json de la lista asistencia es ${claseModelo.toJson().toString()}');
     await collecion
         .doc(clase.idClase)
         .set(claseModelo.toJson())

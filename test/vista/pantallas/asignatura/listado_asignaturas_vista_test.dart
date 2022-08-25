@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:bloc_test/bloc_test.dart';
 import 'package:control_asistencia_tfg_jrm/configuracion/configuracion.dart';
 import 'package:control_asistencia_tfg_jrm/control/bloc/asignatura/asignatura_bloc.dart';
@@ -150,8 +148,7 @@ void main() {
 
       expect(find.byType(WidgetAsignatura), findsNWidgets(6));
       expect(find.byType(WidgetAsignatura).first, findsOneWidget);
-      var posicion = tester.getCenter(find.byType(WidgetAsignatura).first);
-      log('{$posicion}');
+
       await tester.tap(find.byType(WidgetAsignatura).first);
       verify(() => navigator.pushNamed(opcionesAsignaturasRuta,
           arguments: any(named: 'arguments'))).called(1);

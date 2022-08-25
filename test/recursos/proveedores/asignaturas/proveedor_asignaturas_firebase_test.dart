@@ -112,7 +112,6 @@ void main() {
           .obtenerAsignaturasUsuario(idUsuario: '43434');
 
       asignaturas.removeAt(1);
-      log('$asignaturas');
 
       expect(asignaturasFirebase, asignaturas);
     });

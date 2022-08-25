@@ -3,7 +3,6 @@ import 'package:equatable/equatable.dart';
 ///Autor: Javier Ramos Marco
 /// * Entidad de alumno
 ///
-
 class Alumno extends Equatable {
   final String nipAlumno;
   final String dniAlumno;
