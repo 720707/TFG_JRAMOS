@@ -38,8 +38,8 @@ class NoSePuedeEliminarAsignatura extends ExcepcionBaseDeDatos {
   const NoSePuedeEliminarAsignatura();
 }
 
-class NoSePuedeAnyadirAsignaturaAAlumno extends ExcepcionBaseDeDatos {
-  const NoSePuedeAnyadirAsignaturaAAlumno();
+class NoSePuedeAnyadirAsignaturaAlumno extends ExcepcionBaseDeDatos {
+  const NoSePuedeAnyadirAsignaturaAlumno();
 }
 
 class NoSePuedeEliminarAsignaturaAAlumno extends ExcepcionBaseDeDatos {

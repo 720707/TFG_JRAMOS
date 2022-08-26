@@ -27,7 +27,7 @@ class ProveedorAsignaturasFirebase implements ProveedorAsignaturas {
         .collection(asignaturaColeccion)
         .doc(asignatura.idAsignatura)
         .set(asignaturaModelo.toJson())
-        .onError((error, _) => throw const NoSePuedeAnyadirAsignaturaAAlumno());
+        .onError((error, _) => throw const NoSePuedeAnyadirAsignaturaAlumno());
   }
 
   @override

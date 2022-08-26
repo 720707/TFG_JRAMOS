@@ -36,17 +36,17 @@ void main() {
   group('Repositorio Alumnos Test', () {
     test('Añadir Asignatura A Alumno', () {
       //arrange
-      when(() => mockProveedorAlumnos.anyadirAsignaturaAAlumno(
+      when(() => mockProveedorAlumnos.anyadirAsignaturaAlumno(
               idAlumno: alumno.nipAlumno,
               idAsignatura: asignatura.idAsignatura))
           .thenAnswer((_) async => Future<void>.value);
       //act
-      final resultado = repositorioAlumnos.anyadirAsignaturaAAlumno(
+      final resultado = repositorioAlumnos.anyadirAsignaturaAlumno(
           idAlumno: alumno.nipAlumno, idAsignatura: asignatura.idAsignatura);
       //assert
       expect(resultado, isA<Future<void>>());
 
-      verify(() => mockProveedorAlumnos.anyadirAsignaturaAAlumno(
+      verify(() => mockProveedorAlumnos.anyadirAsignaturaAlumno(
           idAlumno: alumno.nipAlumno,
           idAsignatura: asignatura.idAsignatura)).called(1);
       verifyNoMoreInteractions(mockProveedorAlumnos);
@@ -54,18 +54,18 @@ void main() {
 
     test('Añadir Asignatura A Alumno lanza excepcion en caso de fallo', () {
       //arrange
-      when(() => mockProveedorAlumnos.anyadirAsignaturaAAlumno(
+      when(() => mockProveedorAlumnos.anyadirAsignaturaAlumno(
               idAlumno: alumno.nipAlumno,
               idAsignatura: asignatura.idAsignatura))
-          .thenThrow(const NoSePuedeAnyadirAsignaturaAAlumno());
+          .thenThrow(const NoSePuedeAnyadirAsignaturaAlumno());
       //act
       try {
-        repositorioAlumnos.anyadirAsignaturaAAlumno(
+        repositorioAlumnos.anyadirAsignaturaAlumno(
             idAlumno: alumno.nipAlumno, idAsignatura: asignatura.idAsignatura);
       } on Exception catch (e) {
         //assert
         expect(e, isA<ExcepcionBaseDeDatos>());
-        verify(() => mockProveedorAlumnos.anyadirAsignaturaAAlumno(
+        verify(() => mockProveedorAlumnos.anyadirAsignaturaAlumno(
             idAlumno: alumno.nipAlumno,
             idAsignatura: asignatura.idAsignatura)).called(1);
         verifyNoMoreInteractions(mockProveedorAlumnos);

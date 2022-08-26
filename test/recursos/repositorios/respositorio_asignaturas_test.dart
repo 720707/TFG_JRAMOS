@@ -71,7 +71,7 @@ void main() {
       //arrange
       when(() => mockProveedorAsignaturas.anyadirAsignatura(
               asignatura: asignaturas.first))
-          .thenThrow(const NoSePuedeAnyadirAsignaturaAAlumno());
+          .thenThrow(const NoSePuedeAnyadirAsignaturaAlumno());
       //act
       try {
         repositorioAsignaturas.anyadirAsignatura(asignaturas.first);

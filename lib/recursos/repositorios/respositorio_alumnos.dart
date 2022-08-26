@@ -22,9 +22,9 @@ class RepositorioAlumnos {
     return alumno;
   }
 
-  Future<void> anyadirAsignaturaAAlumno(
+  Future<void> anyadirAsignaturaAlumno(
           {required String idAlumno, required String idAsignatura}) =>
-      _proveedorAlumnos.anyadirAsignaturaAAlumno(
+      _proveedorAlumnos.anyadirAsignaturaAlumno(
           idAlumno: idAlumno, idAsignatura: idAsignatura);
 
   Future<void> eliminarAsignaturEnAlumno({required String idAsignatura}) =>

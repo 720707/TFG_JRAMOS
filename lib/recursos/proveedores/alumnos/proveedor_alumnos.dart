@@ -5,7 +5,7 @@ import '../../../datos/datos.dart';
 ///
 
 abstract class ProveedorAlumnos {
-  Future<void> anyadirAsignaturaAAlumno(
+  Future<void> anyadirAsignaturaAlumno(
       {required String idAlumno, required String idAsignatura});
 
   Future<void> crearAlumno(Alumno alumno);

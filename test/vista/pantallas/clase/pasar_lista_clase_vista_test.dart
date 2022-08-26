@@ -135,7 +135,7 @@ void main() {
       final estadosEsperados = [
         AsignaturaInitial(),
         const AsignaturaError(
-            excepcion: NoSePuedeAnyadirAsignaturaAAlumno(), mensaje: 'Error'),
+            excepcion: NoSePuedeAnyadirAsignaturaAlumno(), mensaje: 'Error'),
       ];
       whenListen(asignaturaBloc,
           Stream<EstadoAsignatura>.fromIterable(estadosEsperados),

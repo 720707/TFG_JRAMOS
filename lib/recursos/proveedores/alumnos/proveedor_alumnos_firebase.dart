@@ -17,14 +17,14 @@ class ProveedorAlumnosFirebase implements ProveedorAlumnos {
   CollectionReference get collecion => firestore.collection(alumnosColeccion);
 
   @override
-  Future<void> anyadirAsignaturaAAlumno({
+  Future<void> anyadirAsignaturaAlumno({
     required String idAlumno,
     required String idAsignatura,
   }) async {
     await collecion.doc(idAlumno).update({
       campoAsignaturasEnAlumnos: FieldValue.arrayUnion([idAsignatura])
     }).onError(
-        (error, stackTrace) => throw const NoSePuedeAnyadirAsignaturaAAlumno());
+        (error, stackTrace) => throw const NoSePuedeAnyadirAsignaturaAlumno());
   }
 
   @override

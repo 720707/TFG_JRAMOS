@@ -17,7 +17,7 @@ void main() {
           .doc(alumnoDTO.nipAlumno)
           .set(alumnoDTO.toJson());
 
-      await proveedorAlumnosFirebase.anyadirAsignaturaAAlumno(
+      await proveedorAlumnosFirebase.anyadirAsignaturaAlumno(
           idAlumno: alumnoDTO.nipAlumno, idAsignatura: '76776');
 
       final alumno =

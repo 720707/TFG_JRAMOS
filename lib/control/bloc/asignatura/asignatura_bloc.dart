@@ -64,7 +64,7 @@ class AsignaturaBloc extends Bloc<EventoAsignatura, EstadoAsignatura> {
         await _repositorioAsignaturas.anyadirAsignatura(event.asignatura);
 
         for (Alumno alumno in event.alumnos) {
-          await repositorioAlumnos.anyadirAsignaturaAAlumno(
+          await repositorioAlumnos.anyadirAsignaturaAlumno(
               idAlumno: alumno.nipAlumno,
               idAsignatura: event.asignatura.idAsignatura);
         }
