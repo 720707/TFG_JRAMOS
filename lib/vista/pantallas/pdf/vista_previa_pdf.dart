@@ -33,7 +33,7 @@ class VistaPreviaPdf extends StatelessWidget {
     return Scaffold(
       appBar: MiAppBar(
           ruta: listaMesesRuta,
-          titulo: "Previsualización PDF",
+          titulo: tituloPrevisualizacionPDF,
           argumentos:
               ArgumentosPantalla(usuario: _usuario, asignatura: _asignatura)),
       body: PdfPreview(
