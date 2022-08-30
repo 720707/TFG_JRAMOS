@@ -79,7 +79,7 @@ class AutenticacionBloc extends Bloc<EventoAutenticacion, EstadoAutenticacion> {
     on<NuevaPassword>(((event, emit) async {
       emit(const EstadoCargando());
       try {
-        await _repositorioAutenticacion.borrarCuenta(email: event.correo);
+        await _repositorioAutenticacion.nuevaPassword(email: event.correo);
         emit(const CorreoEnviado());
       } on Exception catch (e) {
         if (e is UsuarioAutenticadoNoEncontrado) {

@@ -52,13 +52,12 @@ class RepositorioAutenticacion {
     if (usuario == null) {
       return null;
     }
-    //Esto podria ser un abstract factory
     return usuario;
   }
 
   Future<void> eliminarCuenta() => _proveedorAutenticacion.eliminarCuenta();
 
-  //Método para restear la contraseña -> Pendiente
-  Future<void> borrarCuenta({required String email}) =>
+  //Método para obtener una nueva contraseña
+  Future<void> nuevaPassword({required String email}) =>
       _proveedorAutenticacion.nuevaPassword(email: email);
 }

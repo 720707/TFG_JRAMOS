@@ -243,7 +243,7 @@ void main() {
           .thenAnswer((_) async => Future<void>.value);
 
       //act
-      final result = repositorioAutenticacion.borrarCuenta(email: email);
+      final result = repositorioAutenticacion.nuevaPassword(email: email);
 
       //expect
       expect(result, isA<Future<void>>());
@@ -259,7 +259,7 @@ void main() {
           .thenThrow(const EmailInvalido());
       //act
       try {
-        repositorioAutenticacion.borrarCuenta(email: email);
+        repositorioAutenticacion.nuevaPassword(email: email);
       } on Exception catch (e) {
         //expect
         expect(e, isA<ExcepcionAutenticacion>());

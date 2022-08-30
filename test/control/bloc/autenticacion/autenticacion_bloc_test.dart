@@ -177,7 +177,7 @@ void main() {
         '''Emite [EstadoCorreoEnviado] cuando se manda el 
         evento NuevaPassword''',
         setUp: () {
-          when(() => mockRepositorioAutenticacion.borrarCuenta(
+          when(() => mockRepositorioAutenticacion.nuevaPassword(
                   email: usuario.email))
               .thenAnswer((_) async => Future<void>.value);
         },
@@ -193,7 +193,7 @@ void main() {
         '''Emite [EstadoAutenticacionError] cuando se manda el 
         evento NuevaPassword''',
         setUp: () {
-          when(() => mockRepositorioAutenticacion.borrarCuenta(
+          when(() => mockRepositorioAutenticacion.nuevaPassword(
               email: usuario.email)).thenThrow(excepcion);
         },
         build: () => autenticacionBloc,
